@@ -1,0 +1,251 @@
+/** Framework **/
+@import "_foundation";
+
+/** Variables **/
+$primary-color: #2869A7;
+$secondary-color: #55C8EB;
+$title-font: 'BELLABOO-Regular';
+
+/** Animate **/
+
+/** Global Components **/
+@import "global/leadImage";
+@import "global/addendum";
+@import "global/burgerMenu";
+
+/** Home **/
+@import "home/home.scss";
+
+/** Portfolio **/
+@import "portfolio/work";
+
+/** What We Do **/
+@import "what/deliver.scss";
+@import "what/think.scss";
+@import "what/fourThings.scss";
+
+/** Why **/
+@import "why/why.scss";
+
+/** Contact **/
+@import "contact/contact.scss";
+
+/** Vacancies **/
+@import "vacancies/vacancies.scss";
+
+/** Fonts **/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+@font-face {
+  font-family: 'BELLABOO-Regular';
+  src: url('~/assets/fonts/BELLABOO-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/** Global **/
+
+/** Animation **/
+.opacity {
+  opacity: 0;
+}
+
+.slideInUp, .slideInDown, .slideInLeft, .slideInRight {
+  opacity: 1 !important;
+}
+
+/** Text Row **/
+.shrunk-left {
+  padding-left: 5rem;
+
+  @include breakpoint(medium down) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.shrunk-right {
+  padding-right: 5rem;
+
+  @include breakpoint(medium down) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.shrunk {
+  padding-right: 5rem;
+  padding-left: 5rem;
+
+  @include breakpoint(medium down) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/** Vertical Margins **/
+.body-content {
+  .row {
+    margin-top:150px;
+    margin-bottom:150px;
+
+    @include breakpoint(medium down) {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.margin-top-none {
+  margin-top: 0px !important;
+}
+
+.margin-btm-none {
+  margin-bottom: 0px !important;
+}
+
+.margin-both-none {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+.margin-both-large {
+  margin-bottom: 75px;
+  margin-top: 75px;
+}
+
+.margin-btm-small {
+  margin-bottom: 50px;
+}
+
+.margin-top-tiny {
+  margin-top: 25px;
+}
+
+.margin-btm-tiny {
+  margin-bottom: 25px;
+}
+
+
+/** Vertical Padding **/
+
+.padding-top-medium {
+  padding-top: 75px;
+}
+
+.padding-top-large {
+  padding-top: 100px;
+}
+
+.padding-top-small {
+  padding-top: 50px;
+}
+
+.padding-top-tiny {
+  padding-top: 30px;
+}
+
+
+/** Text **/
+h1 {
+	font-size: 3.5rem;
+	font-family: $title-font;
+}
+
+h2 {
+	font-family: $title-font;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+h3 {
+  font-family: $title-font;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h4 {
+  font-family: $title-font;
+  font-size: 2rem;
+  text-align: left;
+  line-height: 3;
+
+  @include breakpoint(medium down) {
+    text-align: center;
+  }
+}
+
+p, ul {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+}
+
+.large-bulk {
+	font-size: 18px;
+  line-height: 2;
+
+  @include breakpoint(medium down) {
+    line-height: 1.5;
+  }
+}
+
+a {
+  text-decoration: underline;
+
+  &:hover {
+
+  }
+}
+
+/** Buttons **/
+
+.button {
+  background-color: $primary-color;
+  font-family: $title-font;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 0.60rem 3rem;
+  padding-bottom: 0.75rem;
+}
+
+/** Images **/
+
+.trap-img {
+  height: 500px;
+  -webkit-clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+  clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+  object-fit: cover;
+  min-height: 100%;
+  min-width: 100%;
+
+  @include breakpoint(medium down) {
+    height: 300px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  img {
+    object-fit: cover;
+    min-height: 100%;
+    min-width: 100%;
+  }
+}
+
+.infographic-img {
+  max-width: 80%;
+}
+
+/** visibility **/
+
+.hide-large {
+  @include breakpoint(large up) {
+    display: none;
+  }
+}
+
+.hide-small {
+  @include breakpoint(medium down) {
+    display: none;
+  }
+}

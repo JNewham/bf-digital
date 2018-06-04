@@ -1,0 +1,78 @@
+.description {
+  background-image: url("~/assets/img/portfolio/description.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 102%;
+  left: -2px;
+  position: relative;
+  top: 300px;
+  z-index: 99;
+  padding: 10px;
+  -webkit-transition: 0.5s; /* Safari */
+  transition: 0.5s;
+
+  @include breakpoint(medium only) {
+    top: 500px;
+  }
+
+  p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  h3 {
+    color: white;
+    margin-bottom: 5px;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .large-4 {
+    width: 33.33334%
+  }
+}
+
+.work-container {
+  height: 300px;
+  overflow: hidden;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  @include breakpoint(medium only) {
+    height: 500px;
+  }
+
+  img {
+    position: relative;
+    top: -100px;
+    transition: 0.5s;
+    height: 100%;
+    width: auto;
+    max-width: 150%;
+
+    @include breakpoint(medium only) {
+      top: -300px;
+    }
+  }
+}
+
+.work-container:hover {
+  img {
+    transform: scale(1.2,1.2);
+  }
+
+  .description {
+    top: 200px;
+
+    @include breakpoint(medium only) {
+      top: 400px;
+    }
+  }
+}

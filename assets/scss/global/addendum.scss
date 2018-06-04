@@ -1,0 +1,37 @@
+.footer {
+	text-align: center;
+	line-height: 0px;
+	padding-bottom: 20px;
+
+	a {
+		color: black;
+		text-decoration: none;
+
+	  &:hover {
+	    color: $primary-color;
+	  }
+	}
+
+
+	svg {
+		height: 27px;
+		width: auto;
+		margin: 5px;
+		fill: black;
+
+	&:hover {
+		fill: $primary-color;
+	}
+	}
+
+	p {
+		font-size: 12px;
+		margin-bottom:5px;
+	}
+
+	h2 {
+		font-size: 14px;
+		margin: 0;
+		padding: 0;
+	}
+}

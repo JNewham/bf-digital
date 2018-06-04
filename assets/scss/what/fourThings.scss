@@ -1,0 +1,6 @@
+.trap-padding {
+  @include breakpoint(medium down) {
+    padding-top: 50px;
+    height: 400px !important;
+  }
+}

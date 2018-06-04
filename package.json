@@ -1,0 +1,37 @@
+{
+  "name": "bluefrog-fundraising",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "JNewham <theoryfightersf@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0-rc11",
+    "vue-animate": "0.0.4",
+    "vue-read-more": "^1.1.0",
+    "vue2-animate": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "foundation-sites": "^6.4.4-rc1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue-scrollmonitor": "0.0.2",
+    "vueinview": "^1.0.3"
+  }
+}
