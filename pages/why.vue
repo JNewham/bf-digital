@@ -20,9 +20,8 @@
 
       <div class="row">
         <div class="large-9 small-centered columns text-center"  v-inview:animate="'slideInUp'">
-            <h2 class="opacity" v-html="pageTitle.approach.intro.title"></h2>
-            <p v-html="pageTitle.approach.intro.para1"></p>
-            <p v-html="pageTitle.approach.intro.para2"></p>
+          <h2 class="opacity" v-html="pageTitle.approach.intro.title"></h2>
+          <p v-html="pageTitle.approach.intro.para1"></p>
         </div>
       </div>
 

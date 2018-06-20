@@ -143,31 +143,29 @@
 
     "approach": {
       "intro": {
-          "title": "How we’ll approach your campaign",
-          "para1": "It now provides the strategic base for everything we do. When people try to define donor centricity, they normally end up referring to the donor need states as identified by Bluefrog. ",
-          "para2" : "There are four fundamental need states that apply to most charities. They help us understand the complex set of thoughts and emotions that lie behind the decision to give."
-
+          "title": "Our tried and tested approach",
+          "para1": "Although every campaign is different, we arrive at a solution following the same basic approach, the Bluefrog four ‘D’s:"
         },
         "states": {
           "one": {
-            "title": "Understand your audience",
+            "title": "1 Discovery",
             "img": "/img/why/analysis.svg",
-            "description": "Praeterea iter est quasdam res quas ex communi. Salutantibus vitae elit libero, a pharetra augue. Curabitur blandit tempus ardua ridiculus sed magna. Integer legentibus erat a ante historiarum dapibus."
+            "description": "Understand your audience and requirements"
           },
           "two": {
-            "title": "Engaging Communications",
+            "title": "2 Define",
             "img": "/img/why/email.svg",
-            "description": "When problems strike – be it an illness or a disaster  – people need to be able to do something about it.  Giving is a way for people to <strong>take control</strong> of a seemingly unstable world or situation."
+            "description": "Strategy, planning and solution definition"
           },
           "three": {
-            "title": "Compel to convert",
+            "title": "3 Develop",
             "img": "/img/why/responsive.svg",
-            "description": "Giving is a way to define who you are – to yourself and others. To feel you are part of a solution, to know more and to be <strong>recognised</strong> for what you have done."
+            "description": "Creative and development delivery"
           },
           "four": {
-            "title": "Analyse and improve",
+            "title": "4 Dissect",
             "img": "/img/why/marking.svg",
-            "description": "Communications must <strong>interest</strong> and <strong>engage</strong>. Any charity can ask someone for money, but only those charities that deliver materials that excite and involve will build long-term <strong>sustainable relationships</strong>."
+            "description": "Monitor, analyse and learn"
           }
         }
       },
