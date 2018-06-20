@@ -2,6 +2,19 @@
 	text-align: center;
 	line-height: 0px;
 	padding-bottom: 20px;
+	background-color: #EBF0F2;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	overflow: hidden;
+	-webkit-clip-path: polygon(0 36%,100% 0,100% 100%,0 100%);
+	clip-path: polygon(0 36%,100% 0,100% 100%,0 100%);
+
+	@include breakpoint(small down) {
+		-webkit-clip-path: polygon(0 10%,100% 0,100% 100%,0 100%);
+		clip-path: polygon(0 10%,100% 0,100% 100%,0 100%);
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
 
 	a {
 		color: black;

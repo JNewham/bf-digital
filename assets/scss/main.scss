@@ -20,8 +20,6 @@ $title-font: 'BELLABOO-Regular';
 @import "portfolio/work";
 
 /** What We Do **/
-@import "what/deliver.scss";
-@import "what/think.scss";
 @import "what/fourThings.scss";
 
 /** Why **/
@@ -115,7 +113,11 @@ $title-font: 'BELLABOO-Regular';
 }
 
 .margin-btm-small {
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
+}
+
+.margin-top-small {
+  margin-bottom: 50px !important;
 }
 
 .margin-top-tiny {
@@ -169,7 +171,7 @@ h4 {
   font-family: $title-font;
   font-size: 2rem;
   text-align: left;
-  line-height: 3;
+  line-height: 1.5rem;
 
   @include breakpoint(medium down) {
     text-align: center;
@@ -209,26 +211,38 @@ a {
   padding-bottom: 0.75rem;
 }
 
+.button-large {
+  background-color: $primary-color;
+  font-family: $title-font;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 0.60rem 6rem;
+  padding-bottom: 0.75rem;
+}
+
 /** Images **/
 
 .trap-img {
   height: 500px;
   -webkit-clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
   clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
-  object-fit: cover;
+  background-color: $secondary-color;
   min-height: 100%;
   min-width: 100%;
+  line-height:500px;
+  text-align: center;
 
   @include breakpoint(medium down) {
     height: 300px;
+    line-height:300px;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   }
 
   img {
     object-fit: cover;
-    min-height: 100%;
-    min-width: 100%;
+    width: 50%;
   }
 }
 

@@ -1,8 +1,10 @@
 .states-images {
   width: 50%;
+  max-height: 230px;
 
   @include breakpoint(small down) {
     width: 75%;
+    max-height: 400px;
   }
 }
 
@@ -19,4 +21,13 @@
     min-height: 100%;
     min-width: 100%;
   }
+}
+
+.approach {
+  color: $primary-color;
+}
+
+.client-list {
+  height:100px;
+  line-height:150px;
 }

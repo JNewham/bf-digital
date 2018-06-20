@@ -27,7 +27,7 @@
         <div class="contact-info">
           <p>
             Phone - <a href="">XXX-XXX-XXX</a></br>
-            Email - <a href="">things@bluefroglondon.com</a></br>
+            Email - <a href="mailto:jon.lucas@bluefroglondon.com">jon.lucas@bluefroglondon.com</a></br>
             Address - <a href="">Albert House, EC1V 9DD</a>
           </p>
         </div>

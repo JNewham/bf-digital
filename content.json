@@ -1,7 +1,7 @@
 {
   "work": {
-    "title": "Our Work",
-    "subTitle": "Lorem Ipsum",
+    "title": "Case studies",
+    "subTitle": "Some of our latest work",
     "image": "img/work/head.png",
 
     "para1":  "With a focus on solving the fundamental problems the sector faces, we have an <b>international team</b> of creatives, strategists, data analysts, researchers and technologists.",
@@ -60,8 +60,8 @@
   },
 
   "what": {
-    "title": "What we do",
-    "subTitle": "Lorem Ipsum",
+    "title": "Our approach",
+    "subTitle": "Every campaign is different but this is where we start",
     "image": "/head.png",
 
     "intro": {
@@ -72,28 +72,28 @@
       }
     },
     "uplift": {
-      "title": "Uplift",
+      "title": "Understand your audience",
       "para1": "The Reveal programme underpins everything Bluefrog Fundraising undertakes. It comprises qualitative research and data analytics. By combining the two we can build a picture of who currently supports you and tell you exactly what their fundraising needs are. Importantly, we can also tell you what is missing from the relationship and help you identify the gaps in your current offer and supporter profile.",
       "para2": "Bluefrog Fundraising regularly undertakes a wide range of qualitative studies in a range of countries and languages. All studies are led by specialist fundraising qualitative research analysts who provide presentations and reports that tell you what people think and what you should do to increase income.",
-      "img": "/head.png"
+      "img": "/img/approach/analysis.svg"
     },
     "grow": {
       "title": "Grow",
       "para1": "The programme has four stages and can take from 18 months to two-years to deliver significant returns. Stage one is Discovery, where we build a full understanding of who your prospects are, why they have not been engaged to date and what they need from you. We then move to Implementation, where we apply our knowledge to build multi-point creative programmes that comprise traditional and online communications. Next we move to Examination where the programme is fully reviewed and modified to ensure donors feel valued and are fully connected to your cause. The final stage is Expansion, where we identify second tier prospects as well as moving your committed supporters to regular forms of giving.",
       "para2": "In testing, we find that up to 50% of prospects have more than doubled their average gift by the end of the first two-year Uplift programme.",
-      "img": "/head.png"
+      "img": "/img/approach/email.svg"
     },
     "realise": {
       "title": "Realise",
       "para1": "The Reveal programme underpins everything Bluefrog Fundraising undertakes. It comprises qualitative research and data analytics. By combining the two we can build a picture of who currently supports you and tell you exactly what their fundraising needs are. Importantly, we can also tell you what is missing from the relationship and help you identify the gaps in your current offer and supporter profile.",
       "para2": "Bluefrog Fundraising regularly undertakes a wide range of qualitative studies in a range of countries and languages. All studies are led by specialist fundraising qualitative research analysts who provide presentations and reports that tell you what people think and what you should do to increase income.",
-      "img": "/head.png"
+      "img": "/img/approach/responsive.svg"
     },
     "reveal": {
       "title": "Reveal",
       "para1": "The programme has four stages and can take from 18 months to two-years to deliver significant returns. Stage one is Discovery, where we build a full understanding of who your prospects are, why they have not been engaged to date and what they need from you. We then move to Implementation, where we apply our knowledge to build multi-point creative programmes that comprise traditional and online communications. Next we move to Examination where the programme is fully reviewed and modified to ensure donors feel valued and are fully connected to your cause. The final stage is Expansion, where we identify second tier prospects as well as moving your committed supporters to regular forms of giving.",
       "para2": "In testing, we find that up to 50% of prospects have more than doubled their average gift by the end of the first two-year Uplift programme.",
-      "img": "/head.png"
+      "img": "/img/approach/marketing.svg"
     },
     "deliver": {
       "one": "<strong>Creative executions</strong> — liquam ut neque feugiat, egestas urna id, tincidunt risus. Quisque sed sem quis leo placerat malesuada.",
@@ -114,20 +114,26 @@
       "seven": "You can only really judge success by how much <strong>legacy income</strong> you raise.",
       "eight": "The stories that really matter are the ones that your supporters share. ",
       "nine": "You build for the future by learning from the past."
+    },
+    "how": {
+      "title": "How can we help you?",
+      "left": "We’re part of Bluefrog Fundraising, a London based consultancy providing fundraising services for more than 30 years. ",
+      "right": {
+        "para1": "Bluefrog Fundraising is a fundraising consultancy where research, strategy and creative are combined to form one overarching approach to giving donors the best possible experience of supporting a charity.",
+        "para2": "With a focus on solving the fundamental problems the sector faces, we have an international team of creatives, strategists, data analysts, researchers and technologists ready to help your organisation."
+      }
     }
   },
 
   "why": {
-    "title": "Why Bluefrog",
-    "subTitle": "Lorem Ipsum",
+    "title": "deliver better online donor experiences",
+    "subTitle": "With Bluefrog",
     "image": "/img/why/head.png",
     "image2": "/img/why/footer.png",
 
     "intro": {
-      "left": {
-        "para1": "<strong>The Bluefrog mission</strong> is to bridge the gap between strategic consultancy and the creative fundraising agency.",
-        "img": "/head.png"
-      },
+      "title": "creating a compelling journey",
+
       "right": {
         "para1" : "Attrition is increasing, recruitment is tough and financial returns are in long-term decline.",
         "para2" : "To turn the situation around, fundraising has to undergo a dramatic cultural shift. Understanding and answering <strong>donor needs</strong> must drive everything we do. The start of this process is the removal of the barriers that currently separate strategy and creative idea generation.",
@@ -135,36 +141,48 @@
       }
     },
 
-    "donorNeeds": {
+    "approach": {
       "intro": {
-        "left": "Bluefrog first used need states to build the <strong>immensely successful</strong> mid-value programme developed for ActionAid UK in the 2000’s",
-        "right": {
+          "title": "How we’ll approach your campaign",
           "para1": "It now provides the strategic base for everything we do. When people try to define donor centricity, they normally end up referring to the donor need states as identified by Bluefrog. ",
           "para2" : "There are four fundamental need states that apply to most charities. They help us understand the complex set of thoughts and emotions that lie behind the decision to give."
-          }
+
         },
         "states": {
           "one": {
-            "title": "To help",
-            "img": "/img/why/frog.png",
-            "description": "People obviously give to help. <strong>If there is no need, there is no reason to give</strong>."
+            "title": "Understand your audience",
+            "img": "/img/why/analysis.svg",
+            "description": "Praeterea iter est quasdam res quas ex communi. Salutantibus vitae elit libero, a pharetra augue. Curabitur blandit tempus ardua ridiculus sed magna. Integer legentibus erat a ante historiarum dapibus."
           },
           "two": {
-            "title": "To tackle helplessness",
-            "img": "/img/why/frog.png",
+            "title": "Engaging Communications",
+            "img": "/img/why/email.svg",
             "description": "When problems strike – be it an illness or a disaster  – people need to be able to do something about it.  Giving is a way for people to <strong>take control</strong> of a seemingly unstable world or situation."
           },
           "three": {
-            "title": "To grow",
-            "img": "/img/why/frog.png",
+            "title": "Compel to convert",
+            "img": "/img/why/responsive.svg",
             "description": "Giving is a way to define who you are – to yourself and others. To feel you are part of a solution, to know more and to be <strong>recognised</strong> for what you have done."
           },
           "four": {
-            "title": "To entertain",
-            "img": "/img/why/frog.png",
+            "title": "Analyse and improve",
+            "img": "/img/why/marking.svg",
             "description": "Communications must <strong>interest</strong> and <strong>engage</strong>. Any charity can ask someone for money, but only those charities that deliver materials that excite and involve will build long-term <strong>sustainable relationships</strong>."
           }
         }
+      },
+      "who": {
+        "title": "Who we are",
+        "left": "We’re part of Bluefrog Fundraising, a London based consultancy providing fundraising services for more than 30 years. ",
+
+        "right": {
+          "para1" : "Bluefrog Fundraising is a fundraising consultancy where research, strategy and creative are combined to form one overarching approach to giving donors the best possible experience of supporting a charity.",
+          "para2" : "With a focus on solving the fundamental problems the sector faces, we have an international team of creatives, strategists, data analysts, researchers and technologists ready to help your organisation."
+        }
+      },
+      "work": {
+        "title": "Working together with",
+        "para1": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Ut enim ad minim veniam, quis nostrud exercitation. Ab illo tempore, ab est sed immemorabili."
       }
     },
 
@@ -180,7 +198,7 @@
       }
     },
 
-    "marie-curie" : {
+    "clients/marie-curie" : {
       "title": "Marie Curie",
       "subTitle": "By Our Side",
       "image": "/head.png",

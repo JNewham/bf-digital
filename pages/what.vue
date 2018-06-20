@@ -17,8 +17,21 @@
     <fourThings/>
 
     <div class="body-content">
-      <deliver/>
-      <think/>
+      <div class="row">
+          <h2 class="text-center" v-html="pageTitle.how.title" v-inview:animate="'slideInUp'"></h2>
+        <div class="column large-6 small-12">
+          <p v-html="pageTitle.how.left" class="large-bulk shrunk margin-btm-small opacity" v-inview:animate="'slideInUp'"></p>
+        </div>
+
+        <div class="column large-6 small-12 shrunk-right opacity" v-inview:animate="'slideInUp'">
+          <p v-html="pageTitle.how.right.para1"></p>
+          <p v-html="pageTitle.how.right.para2"></p>
+        </div>
+      </div>
+
+      <div class="row text-center" v-inview:animate="'slideInUp'">
+        <a href="about.html" class="button-large">Get in touch</a>
+      </div>
     </div>
 
     <addendum/>
